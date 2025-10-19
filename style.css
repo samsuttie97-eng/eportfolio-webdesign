@@ -272,13 +272,16 @@ a:hover {
 	text-decoration: none;
 	color: #fa7d1e;
 }
-
 .project-image {
-    max-width: 100%;   /* ensures it doesn’t exceed container width */
-    height: auto;      /* maintains aspect ratio */
-    display: block;    /* removes inline spacing */
-    margin: 0 auto;
+    display: block;
+    margin: 0 auto 20px; /* centers the image and adds spacing below */
+    max-width: 300px;    /* sets maximum width */
+    width: 100%;         /* scales down if container is smaller */
+    height: auto;        /* keeps the aspect ratio */
+    border: 3px solid #00078a;
+    border-radius: 10px;
 }
+
 
 
 
